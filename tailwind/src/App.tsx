@@ -1,10 +1,17 @@
-import './App.css'
+import styled from 'styled-components'
 
 
 const App = () => {
  
+  const Toto = styled.button`
+    background-color: #5747EA;
+    width: 68px;
+    height: 32px;
+    border-radius: 16px;`
+
 
   return (
+    
     <div className='w-[255px] h-[518px] bg-[#1c204b] rounded-[25px] flex flex-col m-auto'>
       <div className='w-[255px] h-[354px] flex items-start 
       bg-[#5747EA] rounded-[25px] flex-col'>
@@ -20,8 +27,10 @@ const App = () => {
           <h3 className='text-white mt-3'>Weekly</h3>
           <h3 className='text-[#bbc0ff] mt-3'>Monthly</h3>
         </div>
+        <Toto>Click Me</Toto>
       </div>
     </div>
+    
   )
 }
 
