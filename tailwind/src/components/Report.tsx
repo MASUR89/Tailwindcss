@@ -18,7 +18,7 @@ const Report = ({ title, hours, lastWeekHours, color, icon }: ReportProps) => {
         max-[430px]:h-[123px] cursor-pointer hover:bg-[#33397a] transition-colors duration-300">
         <div className="flex justify-between items-center">
           <h3 className="text-white">{title}</h3>
-          <span className="text-[#bbc0ff] text-xl">•••</span>
+          <span className="text-[#bbc0ff] text-xl cursor-pointer hover:text-[#d8d8d8]">•••</span>
         </div>
 
         <div className="mb-2 max-[430px]:flex max-[430px]:flex-row max-[430px]:justify-between max-[430px]:items-center">
