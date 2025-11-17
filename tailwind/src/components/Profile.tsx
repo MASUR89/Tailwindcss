@@ -20,13 +20,12 @@ const Profile = () => {
 
   return (
     <div className="w-full min-h-screen bg-[#0f1424] flex items-center justify-center p-4">
-      <div className="w-full max-w-[1080px] flex flex-col md:flex-row items-center gap-6">
+      <div className="w-auto flex flex-col md:flex-row items-center gap-8">
 
-        {/* LEFT PROFILE CARD */}
         <div className="w-[255px] md:w-[255px] bg-[#1c204b] rounded-[25px] flex flex-col 
           max-[430px]:w-[328px] max-[430px]:h-[203px]
           max-[768px]:w-[255px ]">
-          <div className="bg-[#5747EA] h-[354px] w-full rounded-[25px] p-10 flex flex-col
+          <div className="bg-[#5747EA] h-[354px] w-[255px] rounded-[25px] p-10 flex flex-col
             max-[430px]:h-[133px] max-[430px]:flex-row max-[430px]:pl-7">
             <div className="w-20 h-20 rounded-full 
               max-[430px]:w-[68px] max-[430px]:h-[68px] ">
@@ -46,7 +45,7 @@ const Profile = () => {
           </div>
         </div>
 
-        {/* RIGHT GRID */}
+        
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {data.map((item) => (
             <Report
