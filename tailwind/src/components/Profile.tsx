@@ -2,7 +2,7 @@ import Report from "./Report";
 import WorkIcon from "../assets/images/work.svg";
 import PlayIcon from "../assets/images/play.svg";
 import StudyIcon from "../assets/images/study.svg";
-import ExerciseIcon from "../assets/images/exercise.svg";
+import ExerciseIcon from "../assets/images/Exercise.svg";
 import SocialIcon from "../assets/images/social.svg";
 import SelfCareIcon from "../assets/images/selfcare.svg";
 import ProfileIcon from "../assets/images/Jeremy.png";
