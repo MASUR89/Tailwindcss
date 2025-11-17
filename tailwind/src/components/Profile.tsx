@@ -26,7 +26,7 @@ const Profile = () => {
           max-[430px]:w-[328px] max-[430px]:h-[203px]
           max-[768px]:w-[255px ]">
           <div className="bg-[#5747EA] h-[354px] w-[255px] rounded-[25px] p-10 flex flex-col
-            max-[430px]:h-[133px] max-[430px]:flex-row max-[430px]:pl-7">
+            max-[430px]:w-[328px] max-[430px]:h-[133px] max-[430px]:flex-row max-[430px]:pl-7">
             <div className="w-20 h-20 rounded-full 
               max-[430px]:w-[68px] max-[430px]:h-[68px] ">
               <img src={ProfileIcon} alt="Jeremy" className="w-full h-full object-cover" />
